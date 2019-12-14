@@ -8,7 +8,7 @@ export default class Matrix extends Component {
   constructor() {
     super()
     this.state = {
-      color: #ccc
+      selectedColor: #ccc
     }
   }
 
@@ -21,7 +21,7 @@ export default class Matrix extends Component {
   )
   selectColor =(newcolor)=>{
     this.setState = ({
-      color : newcolor
+      selectedColor : newcolor
     })
   }
 
